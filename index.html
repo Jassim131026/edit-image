@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDb Top 100 Movies of All Time</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 2em;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #444;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        .rank {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .title {
+            font-size: 1.1em;
+            color: #222;
+        }
+
+        .year {
+            font-size: 0.9em;
+            color: #888;
+        }
+
+        .rating {
+            background-color: #f39c12;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            display: inline-block;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: #fff;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        IMDb Top 100 Movies of All Time
+    </header>
+
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Title</th>
+                    <th>Year</th>
+                    <th>IMDb Rating</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="rank">1</td>
+                    <td class="title">The Shawshank Redemption</td>
+                    <td class="year">1994</td>
+                    <td><span class="rating">9.3</span></td>
+                </tr>
+                <tr>
+                    <td class="rank">2</td>
+                    <td class="title">The Godfather</td>
+                    <td class="year">1972</td>
+                    <td><span class="rating">9.2</span></td>
+                </tr>
+                <tr>
+                    <td class="rank">3</td>
+                    <td class="title">The Dark Knight</td>
+                    <td class="year">2008</td>
+                    <td><span class="rating">9.0</span></td>
+                </tr>
+                <!-- Add more movie entries here -->
+                <tr>
+                    <td class="rank">4</td>
+                    <td class="title">The Godfather: Part II</td>
+                    <td class="year">1974</td>
+                    <td><span class="rating">9.0</span></td>
+                </tr>
+                <tr>
+                    <td class="rank">5</td>
+                    <td class="title">12 Angry Men</td>
+                    <td class="year">1957</td>
+                    <td><span class="rating">8.9</span></td>
+                </tr>
+                <!-- Continue adding more movie rows up to 100 -->
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        © 2024 IMDb Top Movies. Data sourced from IMDb.
+    </footer>
+
+</body>
+</html>
